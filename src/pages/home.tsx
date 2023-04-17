@@ -1,13 +1,13 @@
 import { Header } from "../layouts/Header";
-import { Hero } from "../layouts/Hero";
+import { Hero } from "../components/Hero";
+import { Mobile } from "../components/Mobile";
 
 const Home = () => {
   return (
     <>
-      <div>
-        <Header />
-      </div>
+      <Header />
       <Hero />
+      <Mobile />
     </>
   );
 };
