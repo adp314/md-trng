@@ -1,13 +1,15 @@
 import { Header } from "../layouts/Header";
-import { Hero } from "../components/Hero";
-import { Mobile } from "../components/Mobile";
+import { HomeSectionHero } from "../components/home/HomeSectionHero";
+import { HomeSectionMobile } from "../components/home/HomeSectionMobile";
+import { HomeSectionTest } from "../components/home/HomeSectionTest";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <Hero />
-      <Mobile />
+      <HomeSectionHero />
+      <HomeSectionMobile />
+      <HomeSectionTest />
     </>
   );
 };
